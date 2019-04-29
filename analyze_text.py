@@ -16,5 +16,7 @@ def analyze_text(text):
         elif i.islower():
             total_count = total_count + 1
     
+    percent = round((e_count/total_count)*100, 2)
+    
     answer = "The text contains {0} alphabetic characters, of which {1} ({2}%) are ‘e’"
-    print(answer.format(total_count, e_count, ((e_count/total_count)*100):.2f))
+    print(answer.format(total_count, e_count, percent)
