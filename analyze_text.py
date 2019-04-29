@@ -13,8 +13,6 @@ def analyze_text(text):
     for i in (text):
         if i.isalpha():
             total_count = total_count + 1
-        elif i.islower():
-            total_count = total_count + 1
     
     percent = (e_count/total_count)*100
     
