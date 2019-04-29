@@ -18,5 +18,5 @@ def analyze_text(text):
     
     percent = (e_count/total_count)*100
     
-    answer = "The text contains {0} alphabetic characters, of which {1} (%.2f%) are 'e'." %percent
+    answer = "The text contains {0} alphabetic characters, of which {1}(%.2f%) are 'e'." %percent
     print(answer.format(total_count, e_count, percent))
